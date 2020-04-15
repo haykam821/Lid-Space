@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "lidspace",
+	"version": "${version}",
+	"name": "Lid Space",
+	"description": "Fixes chests opening in situations where they shouldn't.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Lid-Space#readme",
+		"issues": "https://github.com/haykam821/Lid-Space/issues"
+	},
+	"mixins": [
+		"lidspace.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/lidspace/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
